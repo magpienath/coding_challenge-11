@@ -1,24 +1,151 @@
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-
-}
-
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
-}
-
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+/* Medium devices (tablets, 768px) */
+@media only screen and (max-width: 768px) {
+    html,
+    body {font-size: 11px;}
     
+    .section {padding: 40px 0px;}
+    
+    .mobile-img {
+        width: 110%;
+    }
+    
+    .header-bttn {
+        padding: 2px 20px;
+        background-color: #fff;
+    }
+    
+    .sm-icon {
+        width: 9%;
+        margin-right: 35px;
+    }
+    
+    .mobile-text {
+        text-align: center;
+        padding: 25px 0px;
+        font-size: 9.8px;
+        margin-top: 25px;
+        
+    }
+    
+    .mobile-flex {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+    
+    .mobile-img-white {
+        width: 50%;
+    }
+    
+    .footer-icons {
+        font-size: 180%;
+        margin-bottom: 25px;
+        margin-left: -1px;
+    }
+    
+    .footer-svg {
+        margin-top: 30px;
+    }
+    
+    .footer-svg img {
+        width: 5%;
+    }
+    
+    input {
+        width: 100%;
+        border-radius: 4px;
+        padding: 8px 0px;
+
+    }
+    
+    .sub-button {
+        padding: 4px 0px;
+        margin-left: 205px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        font-size: 140%;
+        width: 140px;
+    }
 }
 
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+
+/* Small devices (landscape phones, 576px) */
+@media only screen and (max-width: 365px) {
+    html,
+    body {font-size: 9.8px;}
     
+    .section {padding: 40px 0px;}
     
+    .mobile-img {
+        width: 110%;
+    }
+    
+    .header-bttn {
+        padding: 2px 20px;
+        background-color: #fff;
+    }
+    
+    .sm-icon {
+        width: 9%;
+        margin-right: 35px;
+    }
+    
+    .mobile-text {
+        text-align: center;
+        padding: 25px 0px;
+        font-size: 9.8px;
+        margin-top: 25px;
+        
+    }
+    
+    .mobile-flex {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+    
+    .mobile-img-white {
+        width: 50%;
+    }
+    
+    .footer-icons {
+        font-size: 180%;
+        margin-bottom: 25px;
+        margin-left: -1px;
+    }
+    
+    .footer-svg {
+        margin-top: 30px;
+    }
+    
+    .footer-svg img {
+        width: 5%;
+    }
+    
+    input {
+        width: 100%;
+        border-radius: 4px;
+        padding: 8px 0px;
+
+    }
+    
+    .sub-button {
+        padding: 4px 0px;
+        margin-left: 150px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        font-size: 140%;
+        width: 140px;
+    }
 }
+
+
