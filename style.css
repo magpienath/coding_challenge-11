@@ -1,0 +1,128 @@
+/*** basic setup & Reusable components **/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: hsl(192, 100%, 9%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 80px 0px;
+}
+
+
+.row-spacer {
+    margin-top: 50px;
+}
+
+
+/*** Sections ***/
+header {
+    padding: 80px 25px;
+}
+
+.hero-box,
+.first-section,
+.signOff-box {
+    text-align: center;
+}
+
+/*** First-Section ***/
+
+.first-section p {
+    color: grey;
+    margin-top: -20px;
+}
+
+.sm-icon {
+    margin-right: 80px;
+}
+
+
+/*** illustration section ***/
+.illustration-blue {
+    background-color: hsl(207, 100%, 98%);
+}
+
+.illustration-blue,
+.illustration-white {
+    font-size: 15px;
+    
+}
+
+/** footer **/
+footer {
+    color: #fff;
+    background-color: hsl(192, 100%, 9%);
+}
+
+.footer-icons {
+    font-size: 30px;
+}
+
+.sub-button {
+    color: #fff;
+    background-color: hsl(322, 100%, 66%);
+    border-style: solid hsl(322, 100%, 66%);
+    border-radius: 8px 8px 8px 8px;
+    border-color: hsl(322, 100%, 66%);
+    padding: 4px 0px;
+    margin-left: 35px;
+    font-size: 18px;
+    width: 180px;
+    cursor: pointer;
+}
+
+input {
+    padding: 3px 0px;
+    width: 300px;
+    border: none;
+}
+/*** Special Text ***/
+header p {
+    border-style: solid;
+    border-radius: 18px 18px 18px 18px;
+    border-width: 1px;
+    padding: 5px 25px;
+    -webkit-box-shadow: 0 1px 1px 0 hsl(322, 100%, 66%), 0 1px 2px 0 hsl(322, 100%, 66%);
+    box-shadow: 0 1px 1px 0 hsl(322, 100%, 66%), 0 1px 2px 0 hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    cursor: pointer;
+}
+
+.hero-btn {
+    border-color: hsl(322, 100%, 66%);;
+    background-color: hsl(322, 100%, 66%); 
+    color: #fff;
+    border-style: solid hsl(322, 100%, 66%);
+    border-radius: 20px 20px 20px 20px;
+    border-width: 1px;
+    padding: 10px 30px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/*** Headings/Sub-Titles ***/
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+/*** Paragraphs ***/
+
+.long-copy {
+    line-height: 145%;
+}
+
+
